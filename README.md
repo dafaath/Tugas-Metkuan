@@ -1,5 +1,9 @@
 # Tugas-Metkuan
 
+## Laporan
+#### Tugas 1
+https://docs.google.com/document/d/1WRyAnxlFUlyg-fCLUx1PTzZDn0WbCE1orHGy2HbUfVo/edit?usp=sharing
+
 ## How to run Tugas 1
 #### Pendeknya
 Jalanin depedencies.r dulu, habis itu baru jalanin main.r
