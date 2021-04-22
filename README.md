@@ -1,6 +1,10 @@
 # Tugas-Metkuan
 
 ## How to run Tugas 1
+#### Pendeknya
+Jalanin depedencies.r dulu, habis itu baru jalanin main.r
+
+#### Panjangnya
 1. pastikan sudah install git dan github desktop di komputer lu
 2. clone repository ini
 ```
