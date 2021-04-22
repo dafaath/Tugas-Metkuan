@@ -15,4 +15,4 @@ git clone https://github.com/dafaath/Tugas-Metkuan.git
 8. Sama kaya tadi, jalankan semua kode di depedencies.r `ctrl` + `a` (highlight semua baris) terus `ctrl` + `enter` (run)
 9. Nanti muncul gambar plot dan output di konsol
 
-![alt text](https://pasteboard.co/JYwbvDA.png)
+![alt text](_ScreenShoot1.PNG)
