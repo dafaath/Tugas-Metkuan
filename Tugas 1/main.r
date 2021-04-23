@@ -1,4 +1,5 @@
 #Main command
+#Pastikan sudah menginstall depedensi di depedencies.r, jika belum akan error
 #Jalankan program ini sampe bawah
 library(png)
 library(OpenImageR)
@@ -79,29 +80,3 @@ xx <- ggplot(y2, aes(X1, X2)) + geom_point(size = 2, shape = 3, color = "blue") 
 print(xx)
 
 summary(pca)
-
-
-#JUNK FILE BELLOW
-
-# #Membuat image gif menjadi png serta membuat gambar grayscale dan kecil
-# library(imager)
-# library(magick)
-# imgList <- list()
-# for (i in 1:10){
-#   for (j in 0:4){
-#     if (i < 10){
-#       #imageName = sprintf("subject0%d_%d.gif",i,j)
-#       imageNamePng = sprintf("subject0%d_%d.png",i,j)
-#     }
-#     else{
-#       #imageName = sprintf("subject%d_%d.gif",i,j)
-#       imageNamePng = sprintf("subject%d_%d.png",i,j)
-#     }
-#     imageGif = image_read(file.path(imageDir,imageName))
-#     #(imageGif, path = file.path(imageDir,imageNamePng), format = "png", quality = 75)
-#     img = load.image(file.path(imageDir,imageNamePng))
-#     img = resize(img, size_x = 120, size_y = 100)
-#     imgList <- append(imgList,img)
-#   }
-# }
-# imgList
