@@ -7,9 +7,10 @@ library(colorspace)
 library(matlib)
 library(ggplot2)
 library(factoextra)
+library(rstudioapi)
 
-dir = dirname(rstudioapi::getSourceEditorContext()$path)
-imageDir = file.path(dir, "yalefaces")
+dir = dirname(getSourceEditorContext()$path)
+imageDir = file.path(dir, "images")
 #Memasukan 10 gambar masing-masing 5
 imagesNameList = list.files(path=imageDir,pattern = "*.png", full.names=TRUE)
 imagesData <- lapply(imagesNameList, readPNG)
