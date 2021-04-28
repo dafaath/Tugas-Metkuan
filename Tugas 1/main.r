@@ -56,7 +56,15 @@ q
 prop <- t(as.matrix(prop[1:q]))
 
 # prop kalo 2 sumbu doang yg diambil
+prop[1]
+prop[2]
 sum(prop[1:2])
+
+for (i in 1:length(prop))
+{
+  print(i)
+  print(prop[i])
+}
 
 colnames(prop) <- c(1:q)
 barplot(prop, main = "Proporsi tiap sumbu baru", ylab = "var", xlab = "dim")
